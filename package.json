@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "eslint": "eslint ."
   },
   "author": "nikitaganin",
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.4.0",
+    "eslint": "^8.2.0",
     "graphql": "^16.0.1",
+    "mongoose": "^6.0.12",
+    "mongoose-unique-validator": "^3.0.0",
     "nodemon": "^2.0.14",
     "uuid": "^3.4.0"
   }
